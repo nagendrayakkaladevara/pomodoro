@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "id": "10000000-0000-4000-8000-000000000001",
+      "name": "Portfolio refresh",
+      "description": "Make room for better work.",
+      "color": "tomato",
+      "weeklyGoalMinutes": 300,
+      "archived": false
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000002",
+      "name": "Learning hour",
+      "description": "Small lessons, steady progress.",
+      "color": "sage",
+      "weeklyGoalMinutes": 180,
+      "archived": false
+    }
+  ],
+  "tasks": [
+    {
+      "id": "10000000-0000-4000-8000-000000000011",
+      "title": "Refine the project case study",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "estimate": 2,
+      "plannedDate": "2026-10-08",
+      "tags": ["design"],
+      "recurrence": "none",
+      "done": false,
+      "templateId": null
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000012",
+      "title": "Read one chapter",
+      "projectId": "10000000-0000-4000-8000-000000000002",
+      "estimate": 1,
+      "plannedDate": "2026-10-08",
+      "tags": ["reading"],
+      "recurrence": "weekdays",
+      "done": false,
+      "templateId": null
+    }
+  ],
+  "routines": [
+    {
+      "id": "10000000-0000-4000-8000-000000000021",
+      "name": "Deep work",
+      "focus": 50,
+      "short": 10,
+      "long": 20,
+      "interval": 3,
+      "ambient": "rain",
+      "taskTitles": []
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000022",
+      "name": "A little reading",
+      "focus": 25,
+      "short": 5,
+      "long": 15,
+      "interval": 4,
+      "ambient": "piano",
+      "taskTitles": ["Read one chapter", "Write down one idea"]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000023",
+      "name": "Clear the small things",
+      "focus": 15,
+      "short": 3,
+      "long": 10,
+      "interval": 4,
+      "ambient": "brown",
+      "taskTitles": []
+    }
+  ],
+  "mixes": [
+    {
+      "id": "10000000-0000-4000-8000-000000000031",
+      "name": "Rainy afternoon",
+      "layers": [
+        {
+          "sound": "rain",
+          "volume": 0.3
+        },
+        {
+          "sound": "piano",
+          "volume": 0.2
+        }
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000032",
+      "name": "By the sea",
+      "layers": [
+        {
+          "sound": "ocean",
+          "volume": 0.3
+        },
+        {
+          "sound": "drift",
+          "volume": 0.15
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "weeklyGoalMinutes": 600,
+    "accent": "tomato"
+  },
+  "sampleSessions": [
+    {
+      "id": "10000000-0000-4000-8000-000000000100",
+      "projectId": "10000000-0000-4000-8000-000000000002",
+      "taskTitle": "Sample focus session",
+      "dayOffset": 0,
+      "durationMinutes": 50
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000101",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": 0,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000102",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -1,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000103",
+      "projectId": "10000000-0000-4000-8000-000000000002",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -1,
+      "durationMinutes": 50
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000104",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -2,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000105",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -2,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000106",
+      "projectId": "10000000-0000-4000-8000-000000000002",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -3,
+      "durationMinutes": 50
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000107",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -3,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000108",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -4,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000109",
+      "projectId": "10000000-0000-4000-8000-000000000002",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -4,
+      "durationMinutes": 50
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000110",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -5,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000111",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -5,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000112",
+      "projectId": "10000000-0000-4000-8000-000000000002",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -6,
+      "durationMinutes": 50
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000113",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -6,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000114",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -7,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000115",
+      "projectId": "10000000-0000-4000-8000-000000000002",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -7,
+      "durationMinutes": 50
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000116",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -8,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000117",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -8,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000118",
+      "projectId": "10000000-0000-4000-8000-000000000002",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -9,
+      "durationMinutes": 50
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000119",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -9,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000120",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -10,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000121",
+      "projectId": "10000000-0000-4000-8000-000000000002",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -10,
+      "durationMinutes": 50
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000122",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -11,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000123",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -11,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000124",
+      "projectId": "10000000-0000-4000-8000-000000000002",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -12,
+      "durationMinutes": 50
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000125",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -12,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000126",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -13,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000127",
+      "projectId": "10000000-0000-4000-8000-000000000002",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -13,
+      "durationMinutes": 50
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000128",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -14,
+      "durationMinutes": 25
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000129",
+      "projectId": "10000000-0000-4000-8000-000000000001",
+      "taskTitle": "Sample focus session",
+      "dayOffset": -14,
+      "durationMinutes": 25
+    }
+  ]
+}
