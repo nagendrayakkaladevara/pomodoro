@@ -47,7 +47,9 @@ Vitest covers deadline drift, pause/resume and serialization, exact-boundary com
 
 ## Deployment
 
-This is a static Vite app. Build output is `dist/`; it can be hosted on any static host. This standalone download omits the private hosting integration. Use an appropriate Vite `base` for a subdirectory deployment.
+Live site: https://nagendrayakkaladevara.github.io/pomodoro/
+
+Pushes to `main` automatically test, build, and deploy the static Vite app through `.github/workflows/deploy-pages.yml`. GitHub Pages uses the GitHub Actions source. Build output is `dist/`, and Vite's `base` is `/pomodoro/` for the repository's subdirectory URL.
 
 
 ## Pro frontend preview

@@ -324,7 +324,7 @@ export default function App() {
         >
           <header className="app-header">
             <div className="brand">
-              <img src="/tomato.svg" width="34" height="34" alt="" />
+              <img src={`${import.meta.env.BASE_URL}tomato.svg`} width="34" height="34" alt="" />
               <div>
                 <h1>Pomodoro</h1>
                 <p>A little focus. A little rest.</p>
@@ -408,7 +408,7 @@ export default function App() {
                     fallback={
                       <div className="tomato-loading">
                         <img
-                          src="/tomato.svg"
+                          src={`${import.meta.env.BASE_URL}tomato.svg`}
                           width="130"
                           height="130"
                           alt="Tomato timer"
@@ -860,7 +860,7 @@ export default function App() {
                       className="task-estimate"
                       title={`${task.earned} completed of ${task.estimate} planned tomatoes`}
                     >
-                      <img src="/tomato.svg" alt="" />
+                      <img src={`${import.meta.env.BASE_URL}tomato.svg`} alt="" />
                       {task.earned}
                       <span>/{task.estimate}</span>
                     </span>
@@ -982,7 +982,7 @@ export default function App() {
             exit={{ opacity: 0, y: 8 }}
             transition={{ duration: 0.2 }}
           >
-            <img src="/tomato.svg" width="20" height="20" alt="" />
+            <img src={`${import.meta.env.BASE_URL}tomato.svg`} width="20" height="20" alt="" />
             <span>{message}</span>
             <button onClick={() => setMessage("")} aria-label="Dismiss message">
               <X size={15} />
